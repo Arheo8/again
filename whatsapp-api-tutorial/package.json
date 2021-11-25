@@ -1,0 +1,43 @@
+{
+    "name": "whatsapp-api",
+    "version": "1.0.0",
+    "description": "Whatsapp api by Ngekoding",
+    "main": "app-multiple-device.js",
+    "scripts": {
+        "start": "node app-multiple-device.js",
+        "start:dev": "nodemon app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "whatsapp-api",
+        "node.js"
+    ],
+    "author": "Nur Muhammad",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.20.0",
+        "bcryptjs": "^2.4.3",
+        "connect-flash": "^0.1.1",
+        "dotenv": "^10.0.0",
+        "ejs": "^3.1.6",
+        "express": "^4.17.1",
+        "express-ejs-layouts": "^2.5.1",
+        "express-fileupload": "^1.2.0",
+        "express-session": "^1.17.2",
+        "express-validator": "^6.9.2",
+        "http": "0.0.1-security",
+        "mime-types": "^2.1.32",
+        "mongoose": "^6.0.12",
+        "needle": "^3.0.0",
+        "node-cron": "^3.0.0",
+        "passport": "^0.5.0",
+        "passport-local": "^1.0.0",
+        "qrcode": "^1.4.4",
+        "request": "^2.88.2",
+        "socket.io": "2.3.0",
+        "whatsapp-web.js": "latest"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
